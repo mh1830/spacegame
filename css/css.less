@@ -1,0 +1,99 @@
+h1 {
+  font-weight: bold;
+  margin-top:5px;
+}
+
+.scoreboard {
+  position:absolute;
+  width:200px;
+  padding:5px;
+  box-shadow: 10px 10px 5px #888888;
+  background:#efefef;
+  line-height:120%;
+  margin-left:20px;
+  border-radius: 15px;
+}
+#points {
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  bottom: 60px;
+  background: url(../imgs/ScorePoint.png) no-repeat;
+}
+.stars {
+  position: absolute;
+  width: 100%;
+  min-width: 900px;
+  height: 650px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+#bg1 {
+  .stars;
+  background: url(../imgs/Bakgrund01.png);
+}
+#bg2 {
+  .stars;
+  background: url(../imgs/Bakgrund02.png);
+}
+#bg3 {
+  .stars;
+  background: url(../imgs/Bakgrund03.png);
+}
+#mainBoard {
+  position:relative;
+  height: 650px;
+  width: 900px;
+  margin: 10px auto;
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 15px;
+}
+#hero {
+  height: 70px;
+  width: 46px;
+  background: transparent url(../imgs/Hero_Ship_Sprite.png) no-repeat;
+  float:right;
+  position: absolute;
+  bottom: 50px;
+  z-index:2003;
+}
+
+.enemy {
+  height:50px;
+  width:50px;
+  background: url(../imgs/Enemy_Ship_Sprite.png) no-repeat;
+  position:absolute;
+}
+
+#heroBullet{
+  height:35px;
+  width:35px;
+  background: url(../imgs/Hero_Ship_Laser.png)0 0 no-repeat;
+  position:absolute;
+}
+
+.enemyBullet{
+  height:35px;
+  width:35px;
+  background: url(../imgs/Enemy_Ship_laser.png)0 0 no-repeat;
+  position: absolute;
+}
+
+.win{
+  position:relative;
+  height: 650px;
+  width: 900px;
+  margin: 10px auto;
+  box-shadow: 10px 10px 5px #888888;
+  border-radius: 15px;
+  color:#efefef;
+  font:arial, verdana, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  background: url(../imgs/Bakgrund01.png);
+  padding-top:350px;
+}
+
+.lose {
+  .win
+}
